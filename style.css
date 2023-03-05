@@ -1,0 +1,74 @@
+body{
+    margin:0;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container css */
+#container{
+    color: white;
+    background-color: rgba(5, 5, 234, 0.905);
+    width: 25rem;
+    /*height: 30vh; */
+    border-radius: 20px;
+    border: solid 10px rgba(106, 1, 8, 0.96);
+    margin: 20px;
+}
+/* Tag Name */
+#container h1{
+    margin: 20px;
+    color: rgb(240, 236, 236);
+    text-align: center;
+    font-weight: 900;
+}
+/* time */
+#time{
+    text-align: center;
+    align-items: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    
+}
+.num{
+    font-size: 3rem;
+}
+
+/* Buttons */
+#btn-container{
+    text-align: center;
+    align-items: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.button{
+    height: 2rem;
+    width: 5rem;
+    cursor: pointer;
+}
+#start{
+    background-color: rgb(4, 167, 4);
+    margin :5px;
+    font-size: 1rem;
+    border: 0px;
+    border-radius: .2rem;
+}
+#stop{
+    background-color: rgb(208, 30, 30);
+    margin :5px;
+    font-size: 1rem;
+    border: 0px;
+    border-radius: .2rem;
+    
+}
+#Reset{
+    background-color: rgba(253, 253, 36, 0.966);
+    margin :5px;
+    font-size: 1rem;
+    border: 0px;
+    border-radius: .2rem;
+}
